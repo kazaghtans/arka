@@ -1,0 +1,14 @@
+kaos = { "itemId" : 12341822,
+"itemName" : "Basic t-shirt",
+"price" : 70000,
+"availableColorAndSize" : {
+	"color" : "red", 
+	"color" : "solid black", 
+	"size" : ["S","M","L"],
+	"sizes": ["M","L"],
+	},
+"freeShipping" : "false"
+}
+import json
+s=json.dumps(kaos)
+print(s)
